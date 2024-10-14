@@ -7,18 +7,29 @@
     <title>Apartamenty Aramika - Szklarska Poręba</title>
 
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+        * {
+            font-family: "Lato", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
         .flex {
             display: flex;
         }
+
         .flex-col {
             flex-direction: column;
         }
+
         .jcc {
             justify-content: center;
         }
+
         .aic {
             align-items: center;
         }
+
         h66 {
             min-height: 66%;
         }
@@ -26,14 +37,15 @@
 </head>
 
 <body>
-    <main>
+    <main class="flex flex-col jcc aic">
         <h1 style="padding-top: 50px;">Apartamenty Aramika</h1>
         <h2>Szklarska Poręba</h2>
 
         <div class="flex flex-col jcc aic ">
             <h3>Strona w trakcie konserwacji</h3>
 
-            <p>Dziękujemy za odwiedzenie naszej strony! <br /> Obecnie przeprowadzamy prace konserwacyjne, aby poprawić jakość
+            <p style="text-align: center; margin-bottom: 25px;">Dziękujemy za odwiedzenie naszej strony! <br /> Obecnie
+                przeprowadzamy prace konserwacyjne, aby poprawić jakość
                 naszych usług. <br /> Prosimy o cierpliwość, wrócimy wkrótce!</p>
             <img src="tryb-konserwacji.avif" alt="Tryb konserwacji">
         </div>
